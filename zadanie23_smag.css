@@ -1,0 +1,40 @@
+p#pogrubienie_smagiel {
+    font-size:32px;
+    color:rgb(133,95, 209);
+    font-weight:bold;
+}
+
+p#pochylona_smagiel {
+    font-size:37pt;
+    color:rgb(233,195, 109);
+    font-style:italic;
+}
+
+p#index_gorny_smagiel {
+    font-size:1.2cm;
+    color:rgb(153, 145, 29);
+    vertical-align:super;
+}
+
+p#index_dolny_smagiel {
+    font-size:1.9cm;
+    color:rgb(53, 245, 229);
+    vertical-align:sub;
+}
+
+p#mono_smagiel {
+    font-size:42px;
+    color:rgb(25, 225, 109);
+    font-family:monospace;
+}
+
+p#powiekszenie_smagiel {
+    color:rgb(83, 65, 159);
+    font-size: 2cm;
+}
+
+p#pomniejszenie_smagiel {
+    color:rgb(183, 165, 59);
+    font-size:3mm;
+}
+	
