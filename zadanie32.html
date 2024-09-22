@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+ <html> 
+   <head> 
+ <title>zadanie 32-smagieł</title> 
+ <meta charset="utf-8" />
+<style>
+            table, td {
+                border: 1px solid black;
+                border-collapse:collapse;
+            }
+	
+</style> 
+</head> 
+ <body> 
+<h1>1. Podaj definicję modelu pudełkowego.</h1>
+Model pudełkowy (ang. box model) to koncepcja w CSS (kaskadowych arkuszach stylów), która opisuje sposób, w jaki przeglądarki internetowe obliczają rozmiary i rozmieszczenie elementów HTML na stronie.
+<br><br>
+<table>
+<tr>
+	<td>content</td>
+	<td>zawartość elementu (np.: tekst, obrazek)</td>
+</tr>
+<tr>
+	<td>padding</td>
+	<td>otaczające marginesy wewnętrzne, odstęp między obramowaniem i zawartością elementu</td>
+</tr>
+<tr>
+	<td>border</td>
+	<td>obramowania wokół zawartości elementu, ma styl i kolor.</td>
+</tr>
+<tr>
+	<td>margin</td>
+	<td>marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół ramki, który nie ma koloru tła i jest przeźroczysty.
+</td>
+</tr>
+</table>
+<h1>Uwaga 1</h1>
+Domyślnie szerokość nie obejmuje paddingu i borderu, co może powodować, że element będzie większy niż zadeklarowane wymiary. Właściwość box-sizing zmienia to zachowanie.
+<h1>Uwaga 2</h1>
+Marginesy elementów mogą się nakładać, co oznacza, że zamiast sumować się, przylegające marginesy tworzą jeden większy margines.
+<h1>Grafika obrazująca model pudełkowy</h1>
+<img src="model_pudelkowy.png">
+<h1>Grafika obrazującą różnicę pomiędzy paddingiem i marginesem wraz z opisem</h1>
+<img src="model_pudelkowy_roznica.png">
+</body> 
+</html> 
